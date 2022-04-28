@@ -8,7 +8,6 @@ public class NumberClass {
         System.out.println(obj.longValue());
         System.out.println(obj.byteValue());
         System.out.println(obj.shortValue());
-        
     }
 
     public static void main(String args[]){

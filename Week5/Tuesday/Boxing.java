@@ -9,9 +9,9 @@ public class Boxing {
         System.out.println(d);
     }    
     public static void main(String[] args){
-        int x = 10;
-        printFloat(x);
-        // printObj(x);
+        boolean x = true;
+        // printFloat(x);
+        printObj(x);
     }
     
 }

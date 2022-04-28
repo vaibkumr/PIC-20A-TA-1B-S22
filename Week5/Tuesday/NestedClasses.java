@@ -14,7 +14,6 @@ public class NestedClasses{
     public static void main(String args[]){
         NestedClasses outerObj = new NestedClasses(10);
         NestedClasses.InnerClass innerObj = outerObj.new InnerClass(); 
-        
     }
 
 }
