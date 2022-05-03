@@ -13,9 +13,9 @@ final class Class1{
     }
 }
 
-// class Class2 extends Class1{
-//     public Class2(){
-//         System.out.println("Initialied final Class2.");
-//     }
-// }
+class Class2 extends Class1{
+    public Class2(){
+        System.out.println("Initialied final Class2.");
+    }
+}
 

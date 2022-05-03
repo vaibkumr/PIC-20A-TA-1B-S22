@@ -5,7 +5,7 @@ public class Overriding {
         Child c = new Child();
         c.print();
         Parent.printStatic();
-        // Child.printStatic();
+        c.printFinal();
     }
 }
 
@@ -21,7 +21,6 @@ class Parent {
     
     final public void printFinal(){
         System.out.println("Hi I am the final boss of overriding.");
-
     }
 }
 
@@ -30,11 +29,11 @@ class Child extends Parent{
         System.out.println("Hi I am the child class.");
     }
 
-    // public void printStatic(){
-    //     System.out.println("Hi I am the child class's static member.");
-    // }
+    public static void printStatic(){
+        System.out.println("Hi I am the child class's static member.");
+    }
     
-    // public void printFinal(){
-    //     System.out.println("Hi I am the child class trying to overriding a final method.");
-    // }    
+    public void printFinal(){
+        System.out.println("Hi I am the child class trying to overriding a final method.");
+    }    
 }

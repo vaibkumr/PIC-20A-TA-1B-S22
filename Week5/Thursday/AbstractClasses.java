@@ -1,9 +1,9 @@
 public class AbstractClasses {
     public static void main(String args[]){
-        Art a = new Art();
-        // Music m = new Music();
-        // System.out.println(m.type());
-        // System.out.println(m.price());
+        // Art a = new Art();
+        Music m = new Music();
+        System.out.println(m.type());
+        System.out.println(m.price());
     }
 }
 

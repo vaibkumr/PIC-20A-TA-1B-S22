@@ -1,5 +1,3 @@
-import java.lang.reflect.Constructor;
-
 public class Inheritance {
     public static void main(String args[]){
         Child c = new Child(1, 2, 3);

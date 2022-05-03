@@ -5,6 +5,7 @@ public class Interfaces {
         ACMEBicycle b = new ACMEBicycle();
         b.printStates();
         b.ride();
+
     }
     
 }
@@ -12,6 +13,8 @@ public class Interfaces {
 interface Bicycle {
     //by default interface methods are public!
     //  wheel revolutions per minute
+    int INTERFACE_CAN_HAVE_FIELDS = 10;
+
     void changeCadence(int newValue);
     void changeGear(int newValue);
     void speedUp(int increment);
