@@ -6,7 +6,7 @@ public class Layout {
         JFrame  frame = new JFrame("Hello  Swing");
 
         JPanel container = new JPanel();
-        container.setLayout(new BoxLayout(container, BoxLayout.X_AXIS));
+        container.setLayout(new BoxLayout(container, BoxLayout.Y_AXIS));
 
 
         JPanel panel1 = new JPanel();
