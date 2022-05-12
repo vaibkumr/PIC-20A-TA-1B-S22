@@ -43,6 +43,7 @@ public class QuoteOption extends JPanel{
             //=== vs .equals
             //what to use?
             if(source==comedy){
+                // source.equals(comedy)
                 quote.setText(comedyQuote);
             }
             else if(source==carpenter){

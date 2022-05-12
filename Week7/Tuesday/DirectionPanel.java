@@ -20,10 +20,10 @@ public class DirectionPanel extends JPanel{
         addKeyListener(new DirectionListener());
         x = WIDTH/2;
         y = HEIGHT/2;
-        up   = new ImageIcon("imgs/up.png");
-        down   = new ImageIcon("imgs/down.png");
-        left   = new ImageIcon("imgs/left.png");
-        right   = new ImageIcon("imgs/right.png");
+        up   = new ImageIcon("./imgs/up.png");
+        down   = new ImageIcon("./imgs/down.png");
+        left   = new ImageIcon("./imgs/left.png");
+        right   = new ImageIcon("./imgs/right.png");
 
         up = resize(up);
         down = resize(down);

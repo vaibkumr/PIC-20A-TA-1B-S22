@@ -7,18 +7,18 @@ public class SimpleMouseListener {
 
     public class MyMouseListener implements MouseListener{
 
-        public  void  mouseClicked(MouseEvent e) {System.out.println("clicked");}               
+        // public  void  mouseClicked(MouseEvent e) {System.out.println("clicked");}               
         public  void  mouseEntered(MouseEvent e) {System.out.println("entered");}
         public  void  mouseExited(MouseEvent e) {System.out.println("exited");}
         public  void  mousePressed(MouseEvent e) {System.out.println("pressed");}
         public  void  mouseReleased(MouseEvent e) {System.out.println("released");}    
 
-        // public  void  mouseClicked(MouseEvent e) {
-        //     System.out.println("X: "+e.getX());
-        //     System.out.println("Y: "+e.getX());
-        //     System.out.println("Button: "+e.getButton());
-        //     //More here: https://docs.oracle.com/javase/7/docs/api/java/awt/event/MouseEvent.html
-        // }             
+        public  void  mouseClicked(MouseEvent e) {
+            System.out.println("X: "+e.getX());
+            System.out.println("Y: "+e.getY());
+            System.out.println("Button: "+e.getButton());
+            //More here: https://docs.oracle.com/javase/7/docs/api/java/awt/event/MouseEvent.html
+        }             
     }
 
     public void gui(){
