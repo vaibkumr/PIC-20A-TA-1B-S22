@@ -12,7 +12,7 @@ public class ReboundPanel extends JPanel {
 	private int ClickCount = 0;
 	
 	public ReboundPanel() {
-		timer = new Timer( DELAY, new ReboundListener() );
+		timer = new Timer(DELAY, new ReboundListener() );
 		//image = new ImageIcon( getClass().getResource( "images\\happyFace2.gif" ) );
 		image = new ImageIcon("imgs/happy.gif");
 

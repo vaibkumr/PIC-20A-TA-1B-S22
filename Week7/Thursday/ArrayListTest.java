@@ -12,14 +12,14 @@ public class ArrayListTest {
         t.modify(0, "NewElem0");
         t.print();
 
-        t.remove(0);
-        System.out.println(t.len());
-        t.print();
+        // t.remove(0);
+        // System.out.println(t.len());
+        // t.print();
 
-        System.out.println(t.access(0));
-        t.clear();
+        // System.out.println(t.access(0));
+        // t.clear();
 
-        System.out.println(t.len());
+        // System.out.println(t.len());
 
 
     }
@@ -34,6 +34,10 @@ class Test{
         myArrList.add(elem);
     }
 
+    public void addIndex(int index, String elem){
+        myArrList.add(index, elem);
+    }    
+
     public void remove(int index){
         myArrList.remove(index);
     } 
@@ -41,7 +45,6 @@ class Test{
     public void clear(){
         myArrList.clear();
     }     
-
 
     public int len(){
         return myArrList.size();

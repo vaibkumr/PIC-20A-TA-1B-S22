@@ -13,7 +13,7 @@ public class SlideColorPanel extends JPanel{
     JPanel controls, colorPanel;
 
     public SlideColorPanel(){
-        rslider = new JSlider(JSlider.HORIZONTAL,0,255,0);
+        rslider = new JSlider(JSlider.HORIZONTAL,0,255,200);
         rslider.setMajorTickSpacing(50);
         rslider.setMinorTickSpacing(10);
         rslider.setPaintTicks(true);
@@ -61,7 +61,7 @@ public class SlideColorPanel extends JPanel{
 
         colorPanel = new JPanel();
         colorPanel.setPreferredSize(new Dimension(100,100));
-        colorPanel.setBackground(new Color(0,0,0));
+        colorPanel.setBackground(new Color(rslider.getValue(),0,0));
 
         add(controls);
         add(colorPanel);
