@@ -10,7 +10,7 @@ public class GraphicsTest extends JPanel {
         g.setColor(Color.RED);
         // g.fillRect(0, 0, 100, 100);
         g.fillOval(0, 0, 100, 100);
-    }    
+    }
 
     protected void callRepaint(){
         repaint();
@@ -26,7 +26,7 @@ public class GraphicsTest extends JPanel {
 		frame.setVisible(true);	       
         
         while(true){
-            g.repaint();
+            g.callRepaint();
         }
     }
     

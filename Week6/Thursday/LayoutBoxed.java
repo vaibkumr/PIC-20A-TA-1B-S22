@@ -7,7 +7,7 @@ public class LayoutBoxed {
         JPanel  panel = new JPanel();
 
 
-        panel.setLayout(new BoxLayout(panel, BoxLayout.X_AXIS));
+        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
 
         //Buttons 
         panel.add(new JButton("Button 1"));
