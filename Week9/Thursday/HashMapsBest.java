@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class HashMapsBest {
-    private Map < String, Integer > m = new HashMap < > ();
+    private Map < String, Integer > m = new HashMap <> ();
     public static void main(String[] args){
         HashMapsBest obj = new HashMapsBest();
         obj.addNum("UCLA", 1);
@@ -12,6 +12,7 @@ public class HashMapsBest {
         System.out.println(obj.haveNumber("UCI"));
         
         System.out.println(obj.getNum("UCLA"));
+        System.out.println(obj.getNum("UCI"));
         
     }
 
