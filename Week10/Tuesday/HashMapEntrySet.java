@@ -10,9 +10,9 @@ public class HashMapEntrySet {
 		// Mapping string values to int keys
 		hash_map.put(1, "Alpha");
 		hash_map.put(2, "Beta");
-		// hash_map.put(3, "Beta");
-		hash_map.put(3, "Delta");
-		hash_map.put(4, "Gamma");
+		hash_map.put(3, "Beta");
+		hash_map.put(4, "Delta");
+		hash_map.put(5, "Gamma");
 		// hash_map.put(4, "Delta");
 
 		// Displaying the HashMap
@@ -24,14 +24,15 @@ public class HashMapEntrySet {
 		System.out.println("The values are: " + hash_map.values());
 
 
-        // ArrayList<Map.Entry<Integer, String>> eList = new ArrayList<>(hash_map.entrySet());
-        // System.out.println(eList);
+        ArrayList<Map.Entry<Integer, String>> eList = new ArrayList<>(hash_map.entrySet());
+        System.out.println(eList);
 
         // for(int i=0; i<eList.size(); i++){
         //     System.out.println(eList.get(i));
         //     System.out.println(eList.get(i).getKey());
         //     System.out.println(eList.get(i).getValue());
         // }
+
 
 	}
 }

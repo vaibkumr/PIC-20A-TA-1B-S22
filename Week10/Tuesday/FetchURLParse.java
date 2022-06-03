@@ -27,18 +27,18 @@ public class FetchURLHW {
 
             String[] strArray = line.split("\t");
 
-            String rank = strArray[0];
-            String maleName = strArray[1];
-            String maleCount = strArray[2];
-            String femaleName = strArray[3];
-            String femaleCount = strArray[4]; 
-
-
-            // int rank = Integer.parseInt(strArray[0]);
+            // String rank = strArray[0];
             // String maleName = strArray[1];
-            // int maleCount = stringToInt(strArray[2]);
+            // String maleCount = strArray[2];
             // String femaleName = strArray[3];
-            // int femaleCount = stringToInt(strArray[4]);  
+            // String femaleCount = strArray[4]; 
+
+
+            int rank = Integer.parseInt(strArray[0]);
+            String maleName = strArray[1];
+            int maleCount = stringToInt(strArray[2]);
+            String femaleName = strArray[3];
+            int femaleCount = stringToInt(strArray[4]);  
             
             System.out.println(rank);
             System.out.println(maleName);

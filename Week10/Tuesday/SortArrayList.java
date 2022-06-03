@@ -13,8 +13,6 @@ public class SortArrayList {
         Collections.sort(students, new CustomComparator());
 
         System.out.println(students);
-
-
     }
 
     public static class CustomComparator implements Comparator<Student> {

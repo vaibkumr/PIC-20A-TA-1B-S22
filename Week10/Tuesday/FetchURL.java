@@ -26,9 +26,10 @@ public class FetchURL {
             String line = br.readLine(); //Read first line of url
             System.out.println(line);
             
-            // while (line != null){ //Keep reading until we get to the end of the url
-            //     line = br.readLine(); //Read the next line to continue the loop
-            // }
+            while (line != null){ //Keep reading until we get to the end of the url
+                line = br.readLine(); //Read the next line to continue the loop
+                System.out.println(line);
+            }
         } catch (IOException e) { //Catch IOException if there was a problem opening the url
             System.out.println(e); //Print out IOException to the console
         }  
